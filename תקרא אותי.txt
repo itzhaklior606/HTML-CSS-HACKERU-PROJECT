@@ -1,0 +1,98 @@
+
+
+1. Project Name: [profilio]
+
+Description: "profilio" is a page that explain about me and show project ive made
+
+
+HTML: HTML5 was used to structure the content and layout of the landing page.
+
+CSS: CSS was utilized to style the page elements, including fonts, colors, spacing, and overall visual presentation.
+
+
+2. Project Name: [קפה טוב לבוקר טוב]
+
+Description: "קפה טוב לבוקר טוב" is a landing page for a good mouring cofee
+HTML: HTML5 was used to structure the content and layout of the landing page.
+
+CSS: CSS was utilized to style the page elements, including fonts, colors, spacing, and overall visual presentation.
+
+
+3. Project Name: [צייסר בחינם]
+
+Description: "צייסר בחינם]" is a landing page for a bar , ofer a free drink
+HTML: HTML5 was used to structure the content and layout of the landing page.
+
+CSS: CSS was utilized to style the page elements, including fonts, colors, spacing, and overall visual presentation.
+
+
+4. Project Name: [כאן ועכשיו]
+
+Description: "כאן ועכשיו]" is a landing page for a bar , ofer a free drink
+HTML: HTML5 was used to structure the content and layout of the landing page.
+
+CSS: CSS was utilized to style the page elements, including fonts, colors, spacing, and overall visual presentation.
+
+
+5. Project Name: [חופשה במרחק נגיעה]
+
+Description: "חופשה במרחק נגיעה" is a landing page for a vacation website that offers personalized travel experiences. The goal of this project was to create an engaging and visually appealing landing page that captures the essence of a dream vacation and encourages users to submit their contact information through a form to receive more details. Technologies Used:
+
+HTML: HTML5 was used to structure the content and layout of the landing page.
+
+CSS: CSS was utilized to style the page elements, including fonts, colors, spacing, and overall visual presentation.
+6. Project Name: [עצתה בחינם
+
+Description: "צייסר בחינם]" is a landing page for contact and advice
+HTML: HTML5 was used to structure the content and layout of the landing page.
+
+SCSS+CSS: CSS was utilized to style the page elements, including fonts, colors, spacing, and overall visual presentation.
+
+7. Project Name: [להוביל אותך קדימה]
+
+Description: "להוביל אותך קדימה]]" a page for lead
+HTML: HTML5 was used to structure the content and layout of the landing page.
+
+CSS: CSS was utilized to style the page elements, including fonts, colors, spacing, and overall visual presentation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+הסבר על תקיות הפרוייקטים
+
+*כל תקייה מכילה פרוייקט מסויים , יש קובץ HTML ויש תיקייה נוספת שמכילה את קבצי ה CSS
+
+1. STARTWORKBACK - קפה בוקר טוב
+
+2. פרוייקט 2 - לצאת לחופשה
+
+3. פרוייקט 3 - צייסר בחינם
+
+4. פרוייקט 4 - כאן ועכשיו
+
+5. פרוייקט 5 - עצה בחינם
+
+6. פרוייקט 6 - להוביל אותך קדימה
+
+
+
+ובנוסף העמוד הראשי:
+
+ליאור יצחק פרוייקט ראשי - עמוד פרופיליו עם גישה לכל שאר האתרים.
