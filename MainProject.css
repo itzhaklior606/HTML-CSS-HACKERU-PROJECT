@@ -1,0 +1,811 @@
+body {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Section Num 1 - navbar */
+
+.navbar {
+  background-color: whitesmoke;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+  max-width: 100%;
+
+  /* trial */
+
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  color: rgba(0, 0, 0, 0.648);
+  text-align: center;
+  padding: 3px 1px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a {
+  position: relative;
+  left: -40px;
+  margin: 0%;
+  margin-right: 4%;
+  margin-top: 0.5%;
+}
+.lior a {
+  position: relative;
+  margin: 0%;
+  margin-right: 10%;
+  font-family: Dancing Script, cursive;
+  bottom: 10px;
+
+  margin-top: 3%;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+.iconp img {
+  display: block;
+  height: 35px;
+  width: 35px;
+  margin-left: 0%;
+  margin-top: 00%;
+  padding: 1px 1px;
+}
+.lioricon {
+  width: 25%;
+}
+
+/* Section Num 2 - Header */
+
+.container01 {
+  position: relative;
+  text-align: center;
+  color: rgb(7, 7, 7);
+  background-image: url(/OrginaizedData/LiorItzhakMainProject/CSS/pictures/Portfolio/assets/bg.jpeg),
+    url(/OrginaizedData/LiorItzhakMainProject/CSS/pictures/Portfolio/assets/4d91c6.png);
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 500px;
+  margin-top: 0%;
+  overflow: hidden;
+  background-size: 100%;
+}
+
+.headline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.headDescription {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* Section Num 3 - Icons */
+
+.subjecticons {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.45);
+}
+
+/* Section Num 4 - About me */
+
+.intrudoction {
+  display: flex;
+
+  padding: 40px 20px;
+}
+
+.intrudoctionH2 {
+  position: relative;
+  left: 1540px;
+  bottom: 30px;
+}
+
+.intrudoctionText {
+  position: relative;
+  bottom: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  transform: translate(950px, 50px);
+  text-align: justify;
+}
+.intrudoctionPicture {
+  position: relative;
+  bottom: 53px;
+  margin: 2%;
+  margin-left: 40%;
+  width: 200px;
+}
+
+/* Section Num 5 - CV */
+
+.pdfblackbox {
+  display: flex;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: black;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+  height: 300px;
+}
+
+.pdfCV {
+  position: relative;
+  text-align: justify;
+  direction: rtl;
+
+  color: white;
+  text-align: center;
+  transform: translate(1550px, 50px);
+}
+
+.pdfCVp {
+  position: relative;
+  text-align: justify;
+  direction: rtl;
+}
+
+.pdfCVH2 {
+  position: relative;
+  text-align: justify;
+  direction: rtl;
+}
+
+.pdficon img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  transform: translate(100px, 70px) rotateZ(0.95turn);
+
+  color: white;
+  margin: 2%;
+  margin-left: 410%;
+  width: 90px;
+}
+
+.pdfDownload a {
+  position: relative;
+  left: 53%;
+  display: block;
+  background-color: rgb(13, 213, 227);
+  background-clip: initial;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  transform: translate(1275px, 200px);
+  border: 3px;
+  border-radius: 25px;
+}
+
+/* Section Num 6 - selected projects */
+
+.headlineGrid {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.gridCollageBox {
+  display: grid;
+  grid-template-rows: repeat(18, 80px);
+  grid-template-columns: repeat(18, 200px);
+  justify-content: center;
+  /*align-items: center;*/
+  width: 100%;
+  height: 1300px;
+  background-color: whitesmoke;
+
+  font-size: 10px;
+  text-align: center;
+}
+
+.imageG {
+  border-radius: 3%;
+}
+
+.box1 {
+  grid-row: 2 / 3;
+  grid-column: 6 / 8;
+  background-color: white;
+  height: 550px;
+  width: fit-content;
+  border-radius: 3%;
+}
+.box2 {
+  grid-row: 2 / 3;
+  grid-column: 9 / 11;
+  background-color: white;
+  height: 550px;
+  width: fit-content;
+  border-radius: 3%;
+}
+.box3 {
+  grid-row: 2 / 3;
+  grid-column: 12 / 14;
+  background-color: white;
+  height: 550px;
+  width: fit-content;
+  border-radius: 3%;
+}
+.box4 {
+  grid-row: 10 / 18;
+  grid-column: 6 / 8;
+  background-color: white;
+  height: 550px;
+  width: fit-content;
+  border-radius: 3%;
+}
+.box5 {
+  grid-row: 10 / 18;
+  grid-column: 9 / 11;
+  background-color: white;
+  height: 550px;
+  width: fit-content;
+  border-radius: 3%;
+}
+.box6 {
+  grid-row: 10 / 18;
+  grid-column: 12 / 14;
+  background-color: white;
+  height: 550px;
+  width: fit-content;
+  border-radius: 3%;
+}
+
+.boxH2 {
+  font-family: Dancing Script, cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.gridCollageBoxB a {
+  position: relative;
+  bottom: 100px;
+  display: block;
+  background-color: rgb(13, 213, 227);
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  transform: translate(70px, 160px);
+  border: 3px solid black;
+  border-radius: 25px;
+  width: 200px;
+  font-size: medium;
+}
+
+.gridCollageBoxB :hover {
+  background-color: rgb(34, 119, 155);
+  transition: 0.3s;
+  opacity: 1;
+}
+
+/* Section Num 7 - Form */
+.backgroundcontainerForm {
+  position: relative;
+  text-align: center;
+  color: rgb(7, 7, 7);
+  background-image: url(/OrginaizedData/MainProject/CSS/pictures/Portfolio/assets/bg.jpeg),
+    url(/OrginaizedData/MainProject/CSS/pictures/Portfolio/assets/4d91c6.png);
+  background-blend-mode: multiply;
+  width: 100%;
+  height: 800px;
+  margin-top: 0%;
+  overflow: hidden;
+  background-size: 100%;
+}
+
+.Form03 {
+  position: relative;
+  left: 580px;
+  top: 2px;
+}
+
+.h2form {
+  position: relative;
+  left: 12.5%;
+  bottom: -20px;
+  padding: 12px 2px;
+}
+
+.pform {
+  position: relative;
+  left: 9%;
+  padding: 12px 2px;
+}
+
+.formpLine2 {
+  position: relative;
+  left: 266px;
+  bottom: 35px;
+  color: black;
+}
+
+label {
+  position: relative;
+  top: 15px;
+  right: -1px;
+  font-size: 15px;
+  padding: 0% 0%;
+  margin-right: -27%;
+}
+
+input {
+  position: relative;
+  left: 2.5%;
+  width: 23%;
+  padding: 4px 12px;
+  margin: 15px 0px;
+  border: none;
+  border: 2px solid #ccc;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+input[type="text"]:focus {
+  background-color: lightblue;
+}
+
+input[type="tel"]:focus {
+  background-color: lightblue;
+}
+
+input[type="email"]:focus {
+  background-color: lightblue;
+}
+
+textarea:focus {
+  background-color: lightblue;
+}
+
+textarea {
+  position: relative;
+  left: 2.5%;
+  width: 24%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  background-color: #f8f8f8;
+  resize: none;
+  margin-right: 0%;
+  margin-top: 15px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+input[type="button"],
+input[type="submit"] {
+  width: 6%;
+  background-color: #0b84ca;
+  border: none;
+  color: white;
+  padding: 16px 0px;
+  text-decoration: none;
+  margin: 4px 12px;
+  right: 220px;
+  cursor: pointer;
+}
+
+/* Section Num 8 - Footer */
+
+.footer {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  background-color: rgb(45, 42, 42);
+  height: 200px;
+}
+
+section {
+  color: whitesmoke;
+  text-decoration: none;
+  transform: translate(-10px, 10px);
+}
+
+.facebook {
+  transform: translate(-10px, 10px);
+  text-decoration: none;
+}
+
+.maps {
+  transform: translate(-17px, 10px);
+}
+
+.tel {
+  transform: translate(-7px, 10px);
+}
+
+.ins {
+  transform: translate(-7px, 10px);
+}
+
+.what {
+  transform: translate(-10px, 10px);
+}
+
+.mail {
+  margin-left: -45px;
+}
+
+.facebook {
+  transform: translate(-17px, 10px);
+}
+
+.credits {
+  display: flex;
+  flex-direction: row;
+  height: 1vh;
+  width: 100%;
+  font-size: 10px;
+  margin-top: 0px;
+  padding: 0px 0px;
+  background-color: black;
+  color: white;
+}
+
+.Pcredits {
+  position: relative;
+  margin: 2px;
+  left: 10%;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    max-width: 600px;
+    width: 600px;
+  }
+  .navbar {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* about me*/
+
+  .intrudoction {
+    margin: 320px 45px;
+    padding: 50px 40px;
+  }
+
+  .intrudoctionPicture {
+    left: -25.5%;
+    top: -320px;
+  }
+
+  .intrudoctionH2 {
+    position: block;
+    width: 100%;
+    left: 220%;
+    top: -30px;
+    margin: 0%;
+  }
+
+  .intrudoctionText {
+    position: absolute;
+    text-align: center;
+
+    margin: 10%;
+    left: -168%;
+    top: 950px;
+    max-width: 100%;
+    width: 100%;
+    inline-size: 8150px;
+  }
+  /* cv */
+
+  .pdfblackbox {
+    max-width: 600px;
+    width: 600px;
+    padding: 0px 0px;
+    height: 220px;
+    margin: 0%;
+  }
+
+  .pdfCV {
+    position: absolute;
+    direction: rtl;
+    color: white;
+    text-align: center;
+    transform: translate(1550px, 50px);
+    margin: 0%;
+    width: 20px;
+    height: 20px;
+  }
+
+  .pdfCVp {
+    position: absolute;
+    text-align: center;
+    direction: rtl;
+    margin: 0%;
+    left: -7100%;
+    top: 66px;
+  }
+
+  .pdfCVH2 {
+    position: absolute;
+    text-align: unset;
+    margin: 0%;
+    left: -6630%;
+    top: 30px;
+  }
+
+  .pdficon img {
+    margin: 2%;
+    margin: 0%;
+    width: 40px;
+    top: -50px;
+  }
+
+  .pdfDownload a {
+    margin: 0%;
+    left: -590%;
+    bottom: 30px;
+    padding: 10px 25px;
+  }
+
+  /*projects;*/
+
+  .gridCollageBox {
+    grid-template-rows: repeat(1, 30px);
+    grid-template-columns: repeat(12, 200px);
+    max-width: 600px;
+    width: 600px;
+    height: fit-content;
+    background-color: rgb(245, 245, 245);
+    margin: 0px;
+  }
+
+  .imageG {
+    border-radius: 3%;
+  }
+
+  .box1 {
+    grid-row: 2 / 3;
+    grid-column: 6 / 8;
+    background-color: white;
+    height: 550px;
+    width: fit-content;
+    border-radius: 3%;
+    margin: 20px;
+  }
+  .box2 {
+    grid-row: 10 / 18;
+    grid-column: 6 / 8;
+    background-color: white;
+    height: 550px;
+    width: fit-content;
+    border-radius: 3%;
+    margin: 20px;
+  }
+  .box3 {
+    grid-row: 25 / 33;
+    grid-column: 6 / 8;
+    background-color: white;
+    height: 550px;
+    width: fit-content;
+    border-radius: 3%;
+    margin: 20px;
+  }
+  .box4 {
+    grid-row: 40 / 48;
+    grid-column: 6 / 8;
+    background-color: white;
+    height: 550px;
+    width: fit-content;
+    border-radius: 3%;
+    margin: 20px;
+  }
+  .box5 {
+    grid-row: 55 / 63;
+    grid-column: 6 / 8;
+    background-color: white;
+    height: 550px;
+    width: fit-content;
+    border-radius: 3%;
+    margin: 20px;
+  }
+  .box6 {
+    grid-row: 70 / 78;
+    grid-column: 6 / 8;
+    background-color: white;
+    height: 550px;
+    width: fit-content;
+    border-radius: 3%;
+    margin: 20px;
+  }
+
+  .boxH2 {
+    font-family: Dancing Script, cursive;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .gridCollageBoxB a {
+    position: relative;
+    bottom: 100px;
+    display: block;
+    background-color: rgb(13, 213, 227);
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    transform: translate(70px, 160px);
+    border: 3px solid black;
+    border-radius: 25px;
+    width: 200px;
+    font-size: medium;
+  }
+
+  .gridCollageBoxB :hover {
+    background-color: rgb(34, 119, 155);
+    transition: 0.3s;
+    opacity: 1;
+  }
+
+  /* form */
+
+  .backgroundcontainerForm {
+    color: rgb(7, 7, 7);
+    background-image: url(/OrginaizedData/LiorItzhakMainProject/CSS/pictures/Portfolio/assets/bg.jpeg),
+      url(/OrginaizedData/LiorItzhakMainProject/CSS/pictures/Portfolio/assets/4d91c6.png);
+    background-blend-mode: multiply;
+    width: 600px;
+    height: 800px;
+  }
+
+  .Form03 {
+    position: relative;
+    left: -100px;
+    top: 2px;
+  }
+
+  .h2form {
+    position: relative;
+    left: 12.5%;
+    bottom: -20px;
+    padding: 12px 2px;
+  }
+
+  .pform {
+    position: relative;
+    left: 13%;
+    padding: 12px 2px;
+  }
+
+  .formpLine2 {
+    position: relative;
+    left: 14%;
+    bottom: 35px;
+    color: black;
+  }
+
+  label {
+    position: relative;
+    top: 15px;
+    right: -262px;
+    font-size: 15px;
+    padding: 0% 0%;
+    margin-right: -27%;
+  }
+
+  input {
+    position: relative;
+    left: 15.5%;
+    width: 23%;
+    padding: 4px 230px;
+    margin: 15px 0px;
+    border: none;
+    border: 2px solid #ccc;
+    border-bottom: 1px solid rgb(0, 0, 0);
+  }
+
+  textarea {
+    position: relative;
+    left: 15.5%;
+    width: 24%;
+    height: 150px;
+    padding: 12px 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    resize: none;
+    margin-right: 0%;
+    margin-top: 15px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+  }
+
+  input[type="button"],
+  input[type="submit"] {
+    width: 6%;
+    background-color: #0b84ca;
+    border: none;
+    color: white;
+    padding: 16px 50px;
+    text-decoration: none;
+    margin: 4px 12px;
+    right: 220px;
+    cursor: pointer;
+    float: right;
+  }
+
+  .submit {
+    justify-content: center;
+  }
+
+  /* footer */
+
+  .footer {
+    display: grid;
+    position: block;
+    grid-template-rows: repeat(8, 170px);
+    grid-template-columns: repeat(2, 80px);
+
+    max-width: 100%;
+    max-height: 100%;
+
+    gap: 100px;
+    background-color: rgb(45, 42, 42);
+    height: 700px;
+  }
+
+  section {
+    color: whitesmoke;
+    text-decoration: none;
+    transform: translate(-10px, 10px);
+  }
+
+  .facebook {
+    grid-row: 2 / 5;
+    grid-column: 2 / 5;
+    transform: translate(-10px, 10px);
+    text-decoration: none;
+  }
+
+  .maps {
+    grid-row: 2 / 5;
+    grid-column: 2 / 5;
+    transform: translate(-17px, 10px);
+  }
+
+  .tel {
+    transform: translate(-7px, 10px);
+  }
+
+  .ins {
+    transform: translate(-7px, 10px);
+  }
+
+  .what {
+    transform: translate(-10px, 10px);
+  }
+
+  .mail {
+    margin-left: -45px;
+  }
+
+  .facebook {
+    transform: translate(-17px, 10px);
+  }
+}
